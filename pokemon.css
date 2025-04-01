@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(168, 238, 238);
+}
+
+div {
+    background-color: rgb(168, 238, 238);
+}
+
+img {
+    height: 700px;
+    
+}
+
+.navbar {
+    padding: 0;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 35px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#pokemonDisplay {
+    min-height: 100vh; /* Ensures the display occupies the majority of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
